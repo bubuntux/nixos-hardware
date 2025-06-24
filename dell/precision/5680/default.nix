@@ -4,9 +4,11 @@
 }:
 {
   imports = [
+    ../../../common/hidpi.nix
     ../../../common/pc/laptop
     ../../../common/pc/ssd
-    ../../../common/cpu/intel
+    ../../../common/cpu/intel/raptor-lake
+    ../../../common/gpu/nvidia/ada-lovelace
     ../../../common/gpu/nvidia/prime.nix
   ];
 
@@ -51,7 +53,6 @@
     nvidia = {
       modesetting.enable = lib.mkDefault true;
       nvidiaSettings = lib.mkDefault true;
-      open = lib.mkDefault false;
 
       powerManagement = {
         enable = lib.mkDefault true;
