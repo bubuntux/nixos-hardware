@@ -12,19 +12,6 @@
     ../../../common/gpu/nvidia/prime.nix
   ];
 
-  boot = {
-    kernelModules = [ "kvm-intel" ];
-    initrd.availableKernelModules = [
-      "xhci_pci"
-      "ahci"
-      "thunderbolt"
-      "nvme"
-      "usb_storage"
-      "sd_mod"
-      "rtsx_pci_sdmmc"
-    ];
-  };
-
   hardware = {
     # Audio
     enableRedistributableFirmware = lib.mkDefault true;
@@ -40,15 +27,7 @@
       powerOnBoot = lib.mkDefault true;
     };
 
-    graphics = {
-      enable = lib.mkDefault true;
-      enable32Bit = lib.mkDefault true;
-    };
-
-    intel-gpu-tools.enable = lib.mkDefault true;
-    intelgpu = {
-      driver = lib.mkDefault "xe";
-    };
+    graphics.enable = lib.mkDefault true;
 
     nvidia = {
       modesetting.enable = lib.mkDefault true;
