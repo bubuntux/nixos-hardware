@@ -69,6 +69,17 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 For questions and discussions, come join us in the [nixos-anywhere matrix](https://matrix.to/#/#nixos-hardware:nixos.org) room.
 
+# Community Meetings
+
+The [NixOS hardware](https://github.com/orgs/NixOS/teams/nixos-hardware) team meets regularly to discuss hardware profiles and maintenance:
+
+- **When**: Every 3rd Friday of the month
+- **Time**: 04:00 pm (UTC) / 16:00 (UTC)
+- **Where**: https://jitsi.lassul.us/Hardware-team
+- **Contact**: hardware@nixos.org
+
+All contributors and users are welcome to join!
+
 ## List of Profiles
 
 See code for all available configurations.
@@ -396,6 +407,7 @@ See code for all available configurations.
 | [System76 Darter Pro 6](system76/darp6)                                           | `<nixos-hardware/system76/darp6>`                       | `system76-darp6`|
 | [System76 Gazelle 18](system76/gaze18)                                            | `<nixos-hardware/system76/gaze18>`                      | `system76-gaze18`|
 | [System76 Galago Pro 5](system76/galp5-1650)                                      | `<nixos-hardware/system76/galp5-1650>`                  | `system76-galp5-1650`|
+| [System76 Thelio Mega](system76/thelio-mega)                                      | `<nixos-hardware/system76/thelio-mega>`                 | `system76-thelio-mega`|
 | [Toshiba Chromebook 2 `swanky`](toshiba/swanky)                                   | `<nixos-hardware/toshiba/swanky>`                       | `toshiba-swanky`|
 | [Tuxedo InfinityBook v4](tuxedo/infinitybook/v4)                                  | `<nixos-hardware/tuxedo/infinitybook/v4>`               | `tuxedo-infinitybook-v4`|
 | [TUXEDO Aura 15 - Gen1](tuxedo/aura/15/gen1)                                      | `<nixos-hardware/tuxedo/aura/15/gen1>`                  | `tuxedo-aura-15-gen1`|
