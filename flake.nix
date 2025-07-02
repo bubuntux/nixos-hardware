@@ -1,6 +1,9 @@
 {
   description = "nixos-hardware";
 
+  outputs =
+    { ... }:
+    {
 
       nixosModules =
         let
